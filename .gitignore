@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production and build outputs
+.next/
+out/
+build/
+dist/
+coverage/
+
+# Next.js build cache & info
+.next/cache/
+*.tsbuildinfo
+
+# Environment variables & local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local SQLite databases, WAL, SHM, and backups (CRITICAL: preserve locally, exclude from Git)
+data/harborline.db
+data/harborline.db-*
+data/harborline.db.bak-*
+data/*.db
+data/*.db-*
+data/*.db.bak-*
+data/*.sqlite*
+*.db
+*.db-shm
+*.db-wal
+*.db.bak-*
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor temporary files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
